@@ -8,6 +8,6 @@ module.exports = withPWA({
   }
 });
 
-module.exports = {
-  target: 'serverless'
-};
+// module.exports = {
+//   target: 'serverless'
+// };
