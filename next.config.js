@@ -7,3 +7,7 @@ module.exports = withPWA({
     runtimeCaching
   }
 });
+
+module.exports({
+  target: 'serverless'
+});
