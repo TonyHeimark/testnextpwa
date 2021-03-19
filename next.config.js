@@ -5,9 +5,6 @@ module.exports = withPWA({
   pwa: {
     dest: 'public',
     runtimeCaching
-  }
+  },
+  target: 'serverless'
 });
-
-// module.exports = {
-//   target: 'serverless'
-// };
